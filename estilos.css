@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+}
+
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+div {
+    max-height: 30px;
+    overflow: hidden;
+    padding-top: 30px;
+
+    background-color: burlywood;
+    color: chocolate;
+    /* transition: 1s max-height;
+    transition-duration: 2s; */
+
+    transition: max-height 2s ease-in-out 1s;
+    transition: background-color 2s 0s;
+
+}
+
+div:hover {
+    max-height: 400px;
+    background-color: darkgreen;
+}
